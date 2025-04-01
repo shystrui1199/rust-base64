@@ -91,7 +91,7 @@ to bring back the support for heap allocations.
 
 ## Profiling
 
-On Linux, you can use [perf](https://perf.wiki.kernel.org/index.php/Main_Page) for profiling. Then compile the
+On Linux, you can use [perf](https://archive.kernel.org/oldwiki/perf.wiki.kernel.org/index.php/Main_Page.html) for profiling. Then compile the
 benchmarks with `cargo bench --no-run`.
 
 Run the benchmark binary with `perf` (shown here filtering to one particular benchmark, which will make the results
